@@ -29,6 +29,7 @@ export class Conta {
        throw new Error("O método Sacar da conta é abstrato")
     }
 
+    //Método Privado
     _sacar(valor, taxa){
         const valorSacado = taxa * valor;
         if (this._saldo >= valorSacado) {

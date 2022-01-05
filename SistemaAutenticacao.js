@@ -1,6 +1,7 @@
 /*
 Ser autenticável significa ter a propriedade "senha"
 
+Duck Type
 */
 
 export class SistemaAutenticacao{
